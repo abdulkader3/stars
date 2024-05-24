@@ -1,0 +1,668 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1 h2 h3 h4 h5 h6 p ul ol {
+    margin: 0;
+    padding: 0;
+}
+
+/* ==================Common C S S============= */
+
+
+
+.secONEdivONE {
+    display: flex;
+    gap: 10px;
+    background: black;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+
+.solo {
+    width: 25px;
+    height: 25px;
+    background: red;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+
+}
+
+.div1 {
+    position: absolute;
+    animation: star 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: 0.1s;
+    left: 0;
+    top: 2px;
+}
+
+.div2 {
+    position: absolute;
+    animation-delay: .2s;
+    animation: star 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    left: 0;
+    top: 2px;
+}
+
+.div3 {
+    position: absolute;
+    animation-delay: .3;
+    animation: star 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    left: 0;
+    top: 2px;
+}
+
+.div4 {
+    position: absolute;
+    animation-delay: .4s;
+    animation: star 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    left: 0;
+    top: 2px;
+}
+
+.div5 {
+    position: absolute;
+    animation-delay: .5s;
+    animation: star 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    left: 0;
+    top: 2px;
+}
+
+.div6 {
+    position: absolute;
+    animation-delay: .1s;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    right: 0;
+}
+
+.div7 {
+    position: absolute;
+    animation-delay: .2s;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    right: 0;
+}
+
+.div8 {
+    position: absolute;
+
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .3s;
+    right: 0;
+}
+
+.div9 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .4s;
+    right: 0;
+}
+
+.div10 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .5s;
+    right: 0;
+}
+
+.div11 {
+    position: absolute;
+    right: 0;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .6s;
+}
+
+.div12 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .7s;
+    left: 0;
+    top: 50px;
+}
+
+.div13 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .8s;
+    left: 0;
+    top: 50px;
+}
+
+.div14 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .9s;
+    left: 0;
+    top: 50px;
+}
+
+.div15 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .10s;
+    left: 0;
+    top: 50px;
+}
+
+.div16 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .11s;
+    left: 0;
+    top: 50px;
+}
+
+.div17 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    animation-delay: .12s;
+    left: 0;
+    top: 50px;
+}
+
+.div18 {
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .13s;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+.div19 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .14s;
+    right: 0;
+    top: 40px;
+}
+
+.div20 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .15s;
+    right: 0;
+    top: 40px;
+}
+
+.div21 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .16s;
+    right: 0;
+    top: 40px;
+}
+
+.div22 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    animation-delay: .17s;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    right: 0;
+    top: 40px;
+}
+
+.div23 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .18s;
+    right: 0;
+    top: 40px;
+}
+
+.div24 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    animation-delay: .19s;
+    right: 0;
+    top: 40px;
+}
+
+.div25 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .20s;
+    right: 0;
+    top: 40px;
+}
+
+.div26 {
+    position: absolute;
+    animation: ll 10s linear infinite alternate;
+    animation-delay: .21s;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    right: 0;
+    top: 40px;
+}
+
+.div27 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    animation-delay: .2s;
+}
+
+.div28 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div29 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    animation-delay: .2s;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+}
+
+.div30 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    animation-delay: .2s;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+}
+
+.div31 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div32 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div33 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div34 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div35 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+}
+
+.div36 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div37 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div38 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div39 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div40 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div41 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div42 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div43 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    animation-delay: .2s;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+}
+
+.div44 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div45 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    animation-delay: .2s;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+}
+
+.div46 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div47 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div48 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div49 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+.div50 {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: bb 10s linear infinite alternate;
+    -webkit-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    -moz-box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+    box-shadow: -24px -1px 42px -1px rgba(212, 0, 212, 1);
+
+    animation-delay: .2s;
+}
+
+@keyframes bb {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateX(-400px);
+    }
+}
+
+@keyframes ll {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateY(-30px);
+    }
+
+    100% {
+        transform: translateX(-700px);
+    }
+}
+
+
+
+@keyframes star {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateY(30px);
+    }
+
+    100% {
+        transform: translateX(700px);
+    }
+}
